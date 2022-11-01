@@ -3,6 +3,7 @@
   "version": "2.1.2",
   "description": "detect possibly catastrophic, exponential-time regular expressions",
   "main": "dist/index.js",
+  "types": "typings/index.d.ts",
   "dependencies": {
     "babel-jest": "^26.3.0",
     "regexp-tree": "~0.1.1"
