@@ -4,7 +4,7 @@
  * @param options Options for the check.
  * `limit` - maximum number of allowed repetitions in the entire regex. Default: `25`.
  */
-export default function safe(regex: string | RegExp, options?: Options): boolean;
+export default function safeRegex(regex: string | RegExp, options?: Options): boolean;
 
 export type Options = Partial<{
     /** Maximum number of allowed repetitions in the entire regex. Default `25` */
